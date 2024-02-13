@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../static/grades.css">
+    <script src="../static/grades.js"></script>
+    <title>Grades</title>
+</head>
+
+<body>
+    <h1> Grades Web App </h1>
+<div class= "center">
+    <button type="button" onclick="getGrades()">Click here to get grades</button><br>
+
+    <label for="submitName">Name of student whos grade you want to view</label>
+    <input type="text" id="submitName" name="submitName"><br><br>
+    <button type="button" onclick="getStudentGrade()">Submit</button><br>
+
+
+    <p>Add a student:</p>
+    <label for="newName">Name:</label>
+    <input type="text" id="newName" name="newName"><br><br>
+    <label for="Grade">Grade:</label>
+    <input type="number" id="newGrade" name="newGrade" value="0"><br><br>
+    <button type="button" onclick="createNew()">Submit</button>
+
+    <p>Edit a student's grade:</p>
+    <label for="editName">Name:</label>
+    <input type="text" id="editName" name="editName"><br><br>
+    <label for="editGrade">New Grade:</label>
+    <input type="number" id="editGrade" name="editGrade" value="0"><br><br>
+    <button type="button" onclick="editGrades()">Submit</button>
+   
+
+    <p>Enter the name of a Student whos data you want to delete: </p>
+    <label for="deleteStudent">Name:</label>
+    <input type="text" id="deleteStudent" name="deleteStudent"><br><br>
+    <button type="button" onclick="deleteGrade()">Submit</button>
+
+   
+</div>
+<div id="demo">
+</div>
+
+</body>
+</html>
