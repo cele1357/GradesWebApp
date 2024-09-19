@@ -2,7 +2,7 @@
 
 Grades Web App
 
-For this project, I developed the front-end and back-end of a web application allowing a user (specifically and instructor) to modify student data entries. I implemented a REST API with Flask to allow a user to view, edit, add, and delete a student’s grades from a SQL database.
+For this project, I developed the front-end and back-end of a web application allowing a user (specifically an instructor) to modify student data entries. I implemented a REST API with Flask to allow a user to view, edit, add, and delete a student’s grades from a SQL database.
 I designed a database with SQLAlchemy to interface with the REST API.
 
 
